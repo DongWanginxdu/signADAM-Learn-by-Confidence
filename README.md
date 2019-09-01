@@ -1,5 +1,8 @@
 # signADAM: Learning Confidences for Deep Neural Networks
-The code for signADAM: Learning Confidences for Deep Neural Networks <br>
-The paper address is: https://arxiv.org/abs/1907.09008
-##introduction
+## introduction
+The code for signADAM: Learning Confidences for Deep Neural Networks. The paper address is: https://arxiv.org/abs/1907.09008<br>
+Based the following two motivativations：<br>
+1 aaa
+2 bbb
+
 
