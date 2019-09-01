@@ -1,5 +1,5 @@
 # signADAM: Learning Confidences for Deep Neural Networks
-## introduction
+## Introduction
 The code for signADAM: Learning Confidences for Deep Neural Networks. https://arxiv.org/abs/1907.09008<br>
 Based the following two motivativations：<br>
 - Hard and easy samples both have easy features. If the neural networks continue learning these easy features, the neural networks tend to overfit. So easy features should be inhibitted. 
@@ -7,4 +7,14 @@ Based the following two motivativations：<br>
 
 
 We use graients to measure the speed of feature learning. So a confidence with zero can exactly satify the above motivations. <br>
-![my](https://github.com/DongWanginxdu/signADAM-Learn-by-Confidence/blob/master/img/img.pdf)
+![image](https://github.com/DongWanginxdu/signADAM-Learn-by-Confidence/blob/master/img/img.pdf)
+
+## Quick Start
+```python
+python main.py
+```
+## Requirments
+```
+PyTorch>=0.4
+Python>=3.
+```
