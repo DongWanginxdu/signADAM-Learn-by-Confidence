@@ -7,4 +7,4 @@ Based the following two motivativations：<br>
 
 
 We use graients to measure the speed of feature learning. So a confidence with zero can exactly satify the above motivations. <br>
-![Image text](https://github.com/DongWanginxdu/signADAM-Learn-by-Confidence/blob/master/img/img.pdf)
+![my](https://github.com/DongWanginxdu/signADAM-Learn-by-Confidence/blob/master/img/img.pdf)
