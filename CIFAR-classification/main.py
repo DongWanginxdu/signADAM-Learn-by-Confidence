@@ -24,7 +24,8 @@ parser.add_argument('--lr', default = 0.1, type=float, help='learning rate')
 parser.add_argument('--dataset', default = 'cifar10', type=str, help='dataset')
 parser.add_argument('--optim', default = 'signadam', type=str, help='optimizer')
 parser.add_argument('--model', default = 'vgg19', type=str, help='model')
-parser.add_argument('--epoch', default = 300, type=int, help='epochs')               
+parser.add_argument('--th', default = 5e-4, type=float, help='threshold')    
+parser.add_argument('--epoch', default = 300, type=int, help='epochs')            
 parser.add_argument('--resume', '-r', action='store_true',
                     help='resume from checkpoint')
                     
@@ -106,7 +107,7 @@ elif args.optim == "adam":
 elif args.optim == "signsgd":
     optimizer = SIGNSGD(net.parameters(), lr=args.lr, weight_decay=5e-4)
 elif args.optim == "signadamp":
-    optimizer = SIGNADAMP(net.parameters(), lr=args.lr, threshold = 5e-4, weight_decay=5e-4)
+    optimizer = SIGNADAMP(net.parameters(), lr=args.lr, threshold = args.th, weight_decay=5e-4)
 else:
     raise NotImplementedError
 
