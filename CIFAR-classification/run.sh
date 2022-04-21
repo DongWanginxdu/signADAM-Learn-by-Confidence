@@ -1,0 +1,1 @@
+python main.py --dataset cifar100 --model vgg19 --optim signadamp --lr 3e-4
