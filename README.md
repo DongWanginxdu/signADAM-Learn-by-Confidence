@@ -2,7 +2,7 @@
 ## Introduction
 The code for signADAM: Learning Confidences for Deep Neural Networks.
 
- [Arxiv](https://arxiv.org/abs/1907.09008)   [IEEE]([signADAM++: Learning Confidences for Deep Neural Networks | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8955622))
+ [Arxiv](https://arxiv.org/abs/1907.09008)   [IEEE](https://ieeexplore.ieee.org/abstract/document/8955622)
 
 Based the following two motivations：<br>
 
@@ -20,11 +20,11 @@ A 15-min oral presentation has been given in Beijing.
 
 Our signADAM++ algorithm is used in various  Deep Neural Network Training Processors, such as:
 
-[HNPU: An Adaptive DNN Training Processor Utilizing Stochastic Dynamic Fixed-Point and Active Bit-Precision Searching]([HNPU: An Adaptive DNN Training Processor Utilizing Stochastic Dynamic Fixed-Point and Active Bit-Precision Searching | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9383824))
+[HNPU: An Adaptive DNN Training Processor Utilizing Stochastic Dynamic Fixed-Point and Active Bit-Precision Searching](https://ieeexplore.ieee.org/abstract/document/9383824)
 
-[An Energy-Efficient Deep Neural Network Training Processor with Bit-Slice-Level Reconfigurability and Sparsity Exploitation]([An Energy-Efficient Deep Neural Network Training Processor with Bit-Slice-Level Reconfigurability and Sparsity Exploitation | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9410324))
+[An Energy-Efficient Deep Neural Network Training Processor with Bit-Slice-Level Reconfigurability and Sparsity Exploitation](https://ieeexplore.ieee.org/abstract/document/9410324)
 
-[A Mobile DNN Training Processor With Automatic Bit Precision Search and Fine-Grained Sparsity Exploitation]([A Mobile DNN Training Processor With Automatic Bit Precision Search and Fine-Grained Sparsity Exploitation | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9650747))
+[A Mobile DNN Training Processor With Automatic Bit Precision Search and Fine-Grained Sparsity Exploitation](https://ieeexplore.ieee.org/abstract/document/9650747)
 
 ## Quick Start
 ```python
