@@ -10,7 +10,7 @@ Based the following two motivations：<br>
 - Neurons tend to have sparse activation.
 
 We use gradients to measure the speed of feature learning. So a confidence with zero can exactly satisfy the above motivations. <br>
-![image](.\img\show.PNG)
+![image](https://github.com/DongWanginxdu/signADAM-Learn-by-Confidence/blob/master/img/show.PNG)
 
 ## News!
 
@@ -33,7 +33,7 @@ bash run.sh
 ```
 ## Requirments
 
-Our source code heavily relies on the [repository]( [kuangliu/pytorch-cifar: 95.47% on CIFAR10 with PyTorch (github.com)](https://github.com/kuangliu/pytorch-cifar) )
+Our source code heavily relies on the [repository](https://github.com/kuangliu/pytorch-cifar)
 
 ```
 PyTorch >= 1.0
