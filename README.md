@@ -4,7 +4,7 @@ The code for signADAM: Learning Confidences for Deep Neural Networks.
 
  [Arxiv](https://arxiv.org/abs/1907.09008)   [IEEE](https://ieeexplore.ieee.org/abstract/document/8955622)
 
-Based the following two motivations：<br>
+Based on the following two motivations：<br>
 
 - Hard and easy samples both have easy features. If the neural networks continue learning these easy features, the neural networks tend to overfit. So easy features should be inhibited. 
 - Neurons tend to have sparse activation.
